@@ -1,0 +1,28 @@
+.status-container {
+    width: 100%;
+    border-radius: var(--spacer);
+    padding: calc(var(--spacer) * 1.5) calc(var(--spacer) * 2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: var(--spacer);
+}
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: bold;
+}
+
+.available {
+    border: 2px solid var(--dark-green);
+    background-color: var(--light-green);
+}
+
+.unavailable {
+    background-color: var(--light-red);
+}
+
+@media screen and (max-width: 600px) {
+
+}

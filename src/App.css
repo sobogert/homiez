@@ -1,4 +1,13 @@
-.statuses {
-    width: 90%;
-    padding-inline: 5%;
+section {
+    padding-inline: 10%;
+}
+
+header {
+    font-weight: bolder;
+    font-size: 24px;
+    padding-block: calc(var(--spacer) * 3);
+}
+
+.title-only {
+    padding-inline: 10%;
 }
