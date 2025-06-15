@@ -1,4 +1,4 @@
-import {Status} from "./StatusEnum";
+import { Status } from "./status";
 
 export interface IStatusContainerProps {
     name: string;
